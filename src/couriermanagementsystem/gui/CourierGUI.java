@@ -145,11 +145,9 @@ public class CourierGUI extends JFrame {
         rightPanel.add(searchPanel, BorderLayout.NORTH);
         rightPanel.add(scrollPane,  BorderLayout.CENTER);
 
-        
         add(leftPanel,  BorderLayout.WEST);
         add(rightPanel, BorderLayout.CENTER);
 
-        
         addBtn.addActionListener(e -> addParcel());
         updateBtn.addActionListener(e -> updateParcel());
         deleteBtn.addActionListener(e -> deleteParcel());
